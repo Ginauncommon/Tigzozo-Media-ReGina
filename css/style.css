@@ -1,0 +1,1041 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin sans';
+    overflow-x: hidden;
+    background-color: var(--secondary-color);
+} 
+ section{
+    margin-top: 100px;
+    background-color: var(--secondary-color);
+} 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    
+}
+.navbar-links ul{ 
+    margin: 0%; 
+    padding: 0%;
+    display: flex;
+    
+}
+
+.navbar-links li{
+     list-style: none;
+    
+}
+
+.navbar-links li a{
+      text-decoration: none;
+      color: black;
+      padding: 1rem;
+      display: block;
+      color: var(--primary-color);
+ }
+
+.navbar-links li:hover{
+    background-color: #742296;
+ }
+
+    
+ .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+    
+ }
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+    
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.Discoverbutton1{
+    background-color:#742296;
+    border: none;
+    width: 130px;
+    height: 45px;
+    color:white;
+    margin-right: 25px;
+}
+.Bookbutton2{
+    background-color:white;
+    border: 5px solid #742296;
+    width: 130px;
+    height: 45px;
+    color:black;
+}
+.rectangle-all{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.img1{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+.img2{
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+.img3{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+.img4{
+    width: 200px;
+    height: 500px;
+}
+.play{
+    width: 30px;
+    height: 30px;
+}
+.tick{
+    width: 30px;
+    height: 30px 
+}
+.watch{
+    display: flex;
+    flex-direction: row;
+    color: #742296;
+}
+.trusted{
+    display: flex;
+    flex-direction: row;
+}
+.about-tigzozo-section{
+    width: 100%;
+    padding-top: 280px;
+    padding-right: 90px;
+    position: relative;
+    left: 50px;
+}
+.rect2{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 70px; 
+}
+.rect1{
+    width: 250px;
+    height: 300px;
+}
+.tigz-img{
+    background-image: url('../images/Rectangle\ 15.jpg');
+    width: 420px;
+    height: 450px;
+    position: relative;
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.229);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.youtube{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 170px;
+    top: 180px;
+}
+.buttonfind{
+    background-color:#742296;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+}
+.services{
+    width: 100%;
+    padding-bottom: 240px;
+    padding-right: 100px;
+    position: relative;
+    left: 50px;
+}
+.events{
+    background-image: url('../images/Rectangle\ 27.png');
+    width: 400px;
+    height: 680px;
+    position: relative;
+}
+.next1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+    top: 630px;
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.229);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Digital-services{
+    background-color:#742296;
+    height: 680px; 
+}
+.cancel{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 347px;
+    top: 488px;
+}
+.offers{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     top: 150px;
+     gap: 10px;
+}
+.tigz-services{
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.Media{
+    background-image: url('../images/Rectangle\ 29.png');
+    width: 400px;
+    height: 680px;
+    position: relative; 
+}
+.next2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+    top: 630px;
+}
+h4{
+    color: var(--secondary-color);
+    display: flex;
+    position: relative;
+    padding-top: 650px;
+    padding-left: 160px;
+}
+.listservices{
+    color: var(--secondary-color);
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 2px;
+}
+.happy-clients{
+    position: relative;
+    right: 40px;
+    bottom: 90px;
+}
+h3{
+    color: var(--secondary-color);
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.l{
+    width: 580px;
+    position: relative;
+    right: 20px;
+    margin: 40px;
+}
+.l2{
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+.Tigzozo-M{
+     position: relative;
+     top: 90px;
+}
+.clients{
+    position: relative;
+    bottom: 45px;
+}
+.seen{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.h2-seen{
+    position: relative;
+    left: 460px;
+}
+.insta{
+    font-family: 'Great vibes';
+}
+.seen1{
+    width: 180px;
+    height: 400px;
+    position: relative;
+}
+
+.seen2{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.seen3{
+    width: 180px;
+    height: 400px;
+    position: relative;
+}
+.seen4{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+.seen5{
+    width:180px;
+    height: 400px;
+    position: relative;   
+}
+.seen6{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+.tigz-seenh2{
+    position: relative;
+     top: 180px;
+    left: 530px;
+    bottom: 60px;
+}
+.seen-follow-button{
+    background-color:#742296;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+    position: relative;
+    top: 190px;
+    left: 530px; 
+}
+.footer-end{
+    background-color: #742296;
+    position: relative;
+    top: 400px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 90px;
+    gap: 150px;
+    opacity: 90%;
+    line-height: 25px;
+    
+} 
+.footer span{
+     font-style: italic;
+      color: white;
+      opacity: 100%;
+}
+form input{
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+}
+.p2{
+    color: white;
+    font-size:15px ;
+}
+.h5-footer{
+    font-size: 30px;
+}
+.white-line{
+    background-color: white;
+    width: 180px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-about{
+    background-color: white;
+    width: 130px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-logo{
+    background-color: white;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    bottom: 20px;
+}
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:white;
+}
+
+.p1 ,h1,p,h2,h5,h6{
+    color: var(--primary-color);
+}
+#night-mode{
+    width: 40px;
+    height: 40px;
+}
+
+
+@media(max-width:768px){
+.hero-section .col-md-4 .col-sm-12{
+        width: 300px;
+        height: 300px; 
+}
+.hero-h1{
+        color: black;
+        font-size:20px ;
+}
+.p1{
+        color: black;
+        font-size:10px ; 
+ }
+.all-btns{
+        display: flex;
+        width: 280px;
+        height: 45px;
+        position: relative;
+}
+ .rectangle-all{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: relative;
+        margin-left: 50px;
+ } 
+
+.img1{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+}
+.img2{
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+.img3{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+}
+.img4{
+    width: 100px;
+    height: 300px;
+}
+.about-tigz{
+    position: relative;
+    bottom: 180px;
+    font-size: 30px;
+}
+.p1-about{
+    color: black;
+    font-size:10px ;
+    position: relative;
+    bottom: 180px;
+}
+.about-tigzozo-section{
+    margin-top: 200px;
+    position: relative;
+    right: 90px;
+    bottom: 90px;
+}
+.tigz-img{
+    background-image: url('../images/Rectangle\ 15.jpg');
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 70px; 
+    right: 30px;   
+}
+.tigz-p1{
+    color: black;
+    font-size:15px ;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+.buttonfind{
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+.rect-img{
+    position: relative;
+    bottom: 190px;
+}
+ .rect2{
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+.rect1{
+    width: 250px;
+    height: 300px;
+    position: relative; 
+    top: 50px;
+}
+
+.services{
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 80px; 
+}
+.events{
+    background-image: url('../images/Rectangle\ 27.png');
+    width: 230px;
+    height: 680px;
+    position: relative;
+    right: 115px;
+    bottom: 200px;
+}
+.next1{
+    bottom: 50px;
+    left:180px ;
+}
+.events-h4{
+    position: relative;
+    right: 80px;
+}
+
+.Digital-services{
+    background-color:#742296;
+    height: 680px;
+    width: 230px; 
+    position: relative;
+    right: 60px;
+    bottom: 200px;
+    
+}
+.next2{
+    bottom: 50px;
+    left:180px ;
+}
+.Media{
+    background-image: url('../images/Rectangle\ 29.png');
+    width: 230px;
+    height: 680px;
+    position: relative; 
+    right: 10px;
+    bottom: 200px;
+}
+.media-h4{
+    position: relative;
+    right: 70px;
+}
+.cancel{
+    left: 160px;
+    bottom: 20px;
+}
+.services-h5{
+    position: relative;
+    right: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 280px;
+}
+
+.clients{
+    position: relative;
+    color: black;
+    font-size:20px ;
+    bottom: 300px;
+    left: 20px;
+    font-weight: bolder;
+}
+.l{
+    width: 320px;
+    position: relative;
+    right: 10px;
+    bottom: 250px;
+}
+.l2{
+    position: relative;
+    bottom: 280px;
+    right: 45px;
+    left: 10px;
+    width: 320px;
+}
+.seen-tigzozo{
+    position: relative;
+    bottom: 380px;
+}
+.h2-seen{
+    position: relative;
+    left: 240px;
+}
+.insta{
+    font-family: 'Great vibes';
+}
+.seen1{
+    width: 100px;
+    height: 280px;
+    position: relative;
+}
+
+.seen2{
+    width: 100px;
+    height: 280px;
+    position: relative;  
+}
+
+.seen3{
+    width: 100px;
+    height: 280px;
+    position: relative;
+}
+.seen4{
+    width: 100px;
+    height: 280px;
+    position: relative;
+    top: 50px;
+}
+.seen5{
+    width:100px;
+    height: 280px;
+    position: relative;   
+}
+.seen6{
+    width: 100px;
+    height: 280px;
+    position: relative;
+    top: 50px;
+}
+
+.h2-seen{
+    position: relative;
+    right: 400px;
+}
+.insta{
+    font-family: 'Great vibes';
+}
+
+.tigz-seenh2{
+      position: relative;
+      left: 300px;
+      bottom: 90px;
+}
+.seen-follow-button{
+      background-color:#742296;
+      border: none;
+      width: 150px;
+      height: 45px;
+      color:white;
+      position: relative;
+      right: 460px;
+      left: 280px;
+      bottom: 90px;
+}
+.footer-end{
+    background-color: #742296;
+    position: relative;
+    top: 400px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 90px;
+    gap: 150px;
+    opacity: 90%;
+    line-height: 25px;
+    
+} 
+.footer span{
+     font-style: italic;
+      color: white;
+      opacity: 100%;
+}
+form input{
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+}
+.p2{
+    color: white;
+    font-size:15px ;
+}
+.h5-footer{
+    font-size: 30px;
+}
+.white-line{
+    background-color: white;
+    width: 180px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-about{
+    background-color: white;
+    width: 130px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-logo{
+    background-color: white;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    bottom: 20px;
+}
+ 
+}
+
+
+@media(max-width:576px){
+.hero-section .col-md-4 .col-sm-12{
+        width: 300px;
+        height: 300px;
+       
+}
+.rectangle-all{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: relative;
+        right: 20px;
+        top: 100px;
+} 
+.hero-h1{
+        color: black;
+        font-size:25px ; 
+}
+.p1{
+        color: black;
+        font-size:15px ;  
+}
+
+.img1{
+    width: 80px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+}
+.img2{
+    width: 80px;
+    height: 200px;
+    position: relative;
+}
+.img3{
+    width: 80px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+}
+.img4{
+    width: 80px;
+    height: 200px;
+}
+.about-tigzozo-section{
+        margin-top: 200px;
+        position: relative;
+        right: 90px;
+        bottom: 90px;
+ }
+.about-tigz{
+        position: relative;
+        bottom: 180px;
+        font-size: 25px;
+}
+.tigz-img{
+        background-image: url('../images/Rectangle\ 15.jpg');
+        width: 350px;
+        height: 450px;
+        position: relative;
+        bottom: 90px;   
+}
+.rect-img{
+        position: relative;
+        bottom: 190px;
+}
+.rect2{
+        width: 250px;
+        height: 300px;
+        position: relative; 
+ }
+.rect1{
+        width: 250px;
+        height: 300px;
+        position: relative;
+       
+}
+.services{
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 80px; 
+}
+.events{
+        background-image: url('../images/Rectangle\ 27.png');
+        width: 360px;
+        height: 680px;
+        position: relative;
+        right: 120px;
+ }
+.next1{
+        bottom: 50px;
+        left: 315px;
+ }
+    
+.Digital-services{
+        background-color:#742296;
+        height: 680px;
+        width: 360px; 
+        position: relative;
+        right: 120px;
+        bottom: 180px;
+ }
+ .next2{
+    bottom: 50px;
+    left: 315px;
+ }
+
+
+.Media{
+        background-image: url('../images/Rectangle\ 29.png');
+        width: 360px;
+        height: 680px;
+        position: relative; 
+        right: 120px;
+        bottom: 160px;
+}
+.cancel{
+        bottom: 75px;
+        left: 290px;
+ }
+ .services-h5{
+        position: relative;
+        bottom: 250px;
+        font-size: 15px;
+}
+.clients{
+        position: relative;
+        bottom: 280px;
+        font-size: 15px;
+        font-weight: bolder;
+        left: 60px;
+}
+.l{
+        width: 380px;
+        position: relative;
+        left: 20px;
+        bottom: 250px;
+ }
+.l2{
+        position: relative;
+        bottom: 250px;
+        left: 60px;
+        width: 380px;
+ }
+   
+.insta{
+        font-family: 'Great vibes';
+}
+.seen1{
+        width: 60px;
+        height: 200px;
+        position: relative;
+}
+    
+.seen2{
+        width: 60px;
+        height: 200px;
+        position: relative;
+}
+    
+.seen3{
+        width: 60px;
+        height: 200px;
+        position: relative;
+}
+.seen4{
+        width: 60px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+}
+.seen5{
+        width:60px;
+        height: 200px;
+        position: relative;   
+}
+.seen6{
+        width: 60px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+}
+.seen-tigzozo{
+        position: relative;
+        bottom: 380px;
+        right: 25px;
+}
+    .h2-seen{
+        position: relative;
+        left: 150px;
+}
+
+.insta{
+    font-family: 'Great vibes';
+}
+
+.tigz-seenh2{
+    position: relative;
+    left: 180px;
+    bottom: 90px;
+}
+.seen-follow-button{
+    background-color:#742296;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+    position: relative;
+    right: 460px;
+    left: 150px;
+    bottom: 90px;
+}
+
+.footer-end{
+    background-color: #742296;
+    position: relative;
+    top: 400px;
+    height: 40vh;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.toggle-button{
+    display: flex;
+}
+    .navbar-links{
+        display: none;
+       width: 100%;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    right: 90px;
+}
+
+.navbar{
+       flex-direction: column;
+       align-items: flex-start;
+}
+
+.navbar-links ul{
+       width: 100%;
+       flex-direction: column;
+}
+
+ .navbar-links li{
+       text-align: center;
+}
+
+.navbar-links li a{
+       padding: .5rem 1rem;
+}
+.navbar-links.active{
+       display: flex;
+} 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    
+}
+.navbar-links ul{ 
+    margin: 0%; 
+    padding: 0%;
+    display: flex;
+    
+}
+
+.navbar-links li{
+     list-style: none;
+    
+}
+
+.navbar-links li a{
+      text-decoration: none;
+      color: black;
+      padding: 1rem;
+      display: block;
+      color: var(--secondary-color);
+ }
+
+}
